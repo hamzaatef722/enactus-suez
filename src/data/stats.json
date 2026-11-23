@@ -1,0 +1,5 @@
+[
+  { "id": "students", "value": 180, "suffix": "+", "label": { "ar": "طالب وطالبة نشطين", "en": "Active students" } },
+  { "id": "teams", "value": 6, "suffix": "", "label": { "ar": "فرق متخصصة", "en": "Focused teams" } },
+  { "id": "partners", "value": 14, "suffix": "", "label": { "ar": "شريك محلي", "en": "Local partners" } }
+]

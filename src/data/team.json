@@ -1,0 +1,149 @@
+{
+  "president": {
+    "name": {
+      "ar": "محمد علي",
+      "en": "Mohamed Ali"
+    },
+    "initials": "MA"
+  },
+  "departments": [
+    {
+      "id": "bd",
+      "icon": "bd",
+      "name": {
+        "ar": "تطوير الأعمال",
+        "en": "Business Development"
+      },
+      "description": {
+        "ar": "يحوّل فرص التعاون إلى شراكات مستمرة.",
+        "en": "Turns collaboration opportunities into lasting partnerships."
+      },
+      "head": {
+        "name": {
+          "ar": "عمر مصطفى",
+          "en": "Omar Mostafa"
+        },
+        "initials": "OM"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    },
+    {
+      "id": "pm",
+      "icon": "pm",
+      "name": {
+        "ar": "إدارة المشاريع",
+        "en": "Project Management"
+      },
+      "description": {
+        "ar": "ينظّم الطريق من أول فكرة حتى التنفيذ.",
+        "en": "Organises the path from first idea to delivery."
+      },
+      "head": {
+        "name": {
+          "ar": "لينا نبيل",
+          "en": "Lina Nabil"
+        },
+        "initials": "LN"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    },
+    {
+      "id": "mk",
+      "icon": "mk",
+      "name": {
+        "ar": "التسويق",
+        "en": "Marketing"
+      },
+      "description": {
+        "ar": "يخلق قصصًا تصل للناس وتدفعهم للتحرك.",
+        "en": "Creates stories that move people to action."
+      },
+      "head": {
+        "name": {
+          "ar": "يوسف خالد",
+          "en": "Youssef Khaled"
+        },
+        "initials": "YK"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    },
+    {
+      "id": "hr",
+      "icon": "hr",
+      "name": {
+        "ar": "الموارد البشرية",
+        "en": "Human Resources"
+      },
+      "description": {
+        "ar": "يبني تجربة ينمو فيها كل عضو.",
+        "en": "Builds an experience where every member can grow."
+      },
+      "head": {
+        "name": {
+          "ar": "سلمى عادل",
+          "en": "Salma Adel"
+        },
+        "initials": "SA"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    },
+    {
+      "id": "md",
+      "icon": "md",
+      "name": {
+        "ar": "الميديا والتصميم",
+        "en": "Media & Design"
+      },
+      "description": {
+        "ar": "يحوّل الأفكار إلى هوية بصرية حاضرة.",
+        "en": "Turns ideas into a visual identity that shows up."
+      },
+      "head": {
+        "name": {
+          "ar": "نور رمضان",
+          "en": "Nour Ramadan"
+        },
+        "initials": "NR"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    },
+    {
+      "id": "lg",
+      "icon": "lg",
+      "name": {
+        "ar": "اللوجستيات",
+        "en": "Logistics"
+      },
+      "description": {
+        "ar": "يتأكد أن كل تفصيلة جاهزة في وقتها.",
+        "en": "Makes sure every detail is ready on time."
+      },
+      "head": {
+        "name": {
+          "ar": "أحمد محمود",
+          "en": "Ahmed Mahmoud"
+        },
+        "initials": "AM"
+      },
+      "vice": {
+        "name": null,
+        "initials": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Enactus Suez",
+    "description": "A student-led community at Suez University using entrepreneurship to solve real challenges."
+  },
+  "nav": {
+    "home": "Home",
+    "impact": "Impact",
+    "teams": "Teams",
+    "events": "Events",
+    "season": "Suez University · Season 26/27",
+    "menu": "Open menu",
+    "theme": "Toggle theme",
+    "language": "Switch language"
+  },
+  "hero": {
+    "eyebrow": "Student-led social entrepreneurship",
+    "title": [
+      "Turning student ideas into ",
+      "real impact",
+      " in Suez."
+    ],
+    "copy": "A Suez University community using entrepreneurship to solve real challenges and build a more sustainable future.",
+    "primary": "See our projects",
+    "secondary": "Join Opening Day"
+  },
+  "next": {
+    "label": "Next event",
+    "live": "Live",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Min",
+    "seconds": "Sec",
+    "open": "Open event page"
+  },
+  "stats": {
+    "note": "Not just a campus activity. A place for those ready to build useful things."
+  },
+  "explore": {
+    "title": "Choose your way in.",
+    "sub": "Explore who makes it happen, what we have built, and what is coming next.",
+    "teams": {
+      "title": "Meet the teams",
+      "desc": "Six teams, one purpose."
+    },
+    "impact": {
+      "title": "See what we have built",
+      "desc": "Projects that started as student ideas."
+    },
+    "events": {
+      "title": "Follow the upcoming events",
+      "desc": "Workshops, meetups and showcases. See what is next and reserve your spot."
+    }
+  },
+  "impact": {
+    "eyebrow": "Why we exist",
+    "title": [
+      "We start with a ",
+      "real challenge.",
+      ""
+    ],
+    "copy": "The best way to learn is to build solutions for real people. Tap any project to see the details.",
+    "all": "All",
+    "challenge": "The challenge",
+    "solution": "Our solution",
+    "results": "Results",
+    "details": "View details",
+    "close": "Close",
+    "missionTitle": "From campus thinking to city-scale action.",
+    "missionCopy": "We design projects that open a door to impact for students, and practical solutions the community can grow."
+  },
+  "teams": {
+    "eyebrow": "One community, many crafts",
+    "title": [
+      "Every team has a ",
+      "role.",
+      "\nEvery role makes a difference."
+    ],
+    "copy": "We work as one system: research, plan, design, communicate and deliver.",
+    "orgTitle": "How we stay connected",
+    "president": "President",
+    "headRole": "Head of {team}",
+    "viceRole": "Vice head of {team}",
+    "viceEmpty": "To be announced"
+  },
+  "events": {
+    "eyebrow": "Never miss a date",
+    "title": [
+      "Upcoming ",
+      "events.",
+      "\nMade for movers."
+    ],
+    "copy": "Pick an event to see its countdown, agenda and where to join.",
+    "daysLeft": "days left",
+    "started": "Happening now",
+    "ended": "Ended",
+    "agenda": "Agenda",
+    "agendaHint": "Tap a step to see what happens.",
+    "reserve": "Reserve your spot",
+    "name": "Full name",
+    "phone": "Phone number",
+    "send": "Confirm reservation",
+    "okTitle": "You are in!",
+    "okText": "We will message you the details before the event.",
+    "all": "All events",
+    "where": "Where",
+    "when": "When",
+    "close": "Close"
+  },
+  "footer": {
+    "follow": "Follow us",
+    "rights": "All rights reserved."
+  }
+}

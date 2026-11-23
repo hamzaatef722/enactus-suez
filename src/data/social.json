@@ -1,0 +1,6 @@
+[
+  { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/" },
+  { "id": "facebook", "label": "Facebook", "url": "https://www.facebook.com/" },
+  { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/" },
+  { "id": "mail", "label": "Email", "url": "mailto:hello@example.com" }
+]

@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #f5f5ef;
+  --panel: #ffffff;
+  --ink: #101113;
+  --muted: #5f6059;
+  --line: #deded6;
+  --gold: #e8b21f;
+  --pale: #fff0b2;
+  --ls: -0.035em;
+  --org-line: rgba(255, 255, 255, 0.3);
+}
+
+.dark {
+  --bg: #121310;
+  --panel: #1b1d18;
+  --ink: #f5f4ed;
+  --muted: #a9aaa0;
+  --line: #34352f;
+  --gold: #e5b51d;
+  --pale: #332b0e;
+}
+
+html:lang(ar) {
+  --ls: 0em;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-gold: var(--gold);
+  --color-pale: var(--pale);
+  --font-sans: "Readex Pro Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --shadow-lift: 0 16px 40px rgba(18, 18, 14, 0.14);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    overflow-x: clip;
+    transition: background 0.3s, color 0.3s;
+  }
+  h1, h2, h3 {
+    letter-spacing: var(--ls);
+    line-height: 1.15;
+    font-weight: 700;
+  }
+  html:lang(ar) h1,
+  html:lang(ar) h2,
+  html:lang(ar) h3 {
+    line-height: 1.35;
+  }
+  button { cursor: pointer; }
+  :focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+  }
+  dialog { margin: auto; }
+}
+
+.hl {
+  background: linear-gradient(var(--gold), var(--gold)) 0 100% / 100% 0.17em no-repeat;
+  padding-bottom: 0.04em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.page-enter { animation: rise 0.5s cubic-bezier(0.2, 0.65, 0.25, 1) both; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+}
+@keyframes pop {
+  from { opacity: 0; transform: translateY(24px) scale(0.96); }
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gold) 55%, transparent); }
+  100% { box-shadow: 0 0 0 9px transparent; }
+}
+@keyframes float {
+  50% { translate: 0 -14px; rotate: 6deg; }
+}
+
+.dot-live { animation: pulse-ring 1.8s infinite; }
+
+.origami {
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.25s ease-out;
+  animation: float 8s ease-in-out infinite;
+}
+.origami-1 {
+  inset-inline-end: 8%;
+  top: 4%;
+  width: 84px;
+  opacity: 0.45;
+  transform: translate(calc(var(--mx, 0) * 18px), calc(var(--my, 0) * 18px));
+}
+.origami-2 {
+  inset-inline-start: 46%;
+  bottom: 2%;
+  width: 56px;
+  opacity: 0.35;
+  animation-duration: 10s;
+  animation-direction: reverse;
+  transform: translate(calc(var(--mx, 0) * -26px), calc(var(--my, 0) * -26px));
+}
+@media (min-width: 1024px) {
+  .origami-1 { inset-inline-end: auto; inset-inline-start: 42%; top: 6%; width: 130px; opacity: 0.9; }
+  .origami-2 { inset-inline-start: 2%; bottom: -2%; width: 70px; opacity: 0.5; }
+}
+
+dialog[open] { animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.3, 1.1); }
+dialog::backdrop { background: rgba(10, 10, 8, 0.55); backdrop-filter: blur(4px); }
+
+.org-kids { display: grid; gap: 12px; list-style: none; padding: 0; margin: 0; }
+@media (min-width: 640px) {
+  .org-kids { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .org-top::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 28px;
+    margin: 12px auto 0;
+    background: var(--org-line);
+  }
+  .org-kids { display: flex; gap: 0; }
+  .org-col { flex: 1; position: relative; padding: 28px 8px 0; background: none !important; }
+  .org-col::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    inset-inline: 0;
+    height: 2px;
+    background: var(--org-line);
+  }
+  .org-col:first-child::before { inset-inline-start: 50%; }
+  .org-col:last-child::before { inset-inline-end: 50%; }
+  .org-col::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    inset-inline-start: calc(50% - 1px);
+    width: 2px;
+    height: 28px;
+    background: var(--org-line);
+  }
+  .org-vice { position: relative; margin-top: 30px; }
+  .org-vice::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    inset-inline-start: calc(50% - 1px);
+    width: 2px;
+    height: 30px;
+    background: var(--org-line);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

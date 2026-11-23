@@ -1,0 +1,39 @@
+[
+  {
+    "id": "opening-day",
+    "date": "2026-11-30T10:00:00+02:00",
+    "type": { "ar": "فعالية افتتاحية", "en": "Kick-off" },
+    "title": { "ar": "يوم الافتتاح", "en": "Opening Day" },
+    "summary": { "ar": "تعال تعرف المجتمع من الداخل، قابل التيم، واكتشف فين ممكن تبدأ رحلتك.", "en": "Come inside the community, meet the team and find where your journey can start." },
+    "location": { "ar": "جامعة السويس — القاعة الرئيسية", "en": "Suez University — Main Hall" },
+    "agenda": [
+      { "time": "10:00", "title": { "ar": "ترحيب والصورة الكبيرة", "en": "Welcome and the big picture" }, "description": { "ar": "قصة Enactus السويس والمشاريع اللي الطلبة أطلقوها بالفعل.", "en": "The story of Enactus Suez and the projects students have already launched." } },
+      { "time": "11:00", "title": { "ar": "قابل الفرق", "en": "Meet the teams" }, "description": { "ar": "اتكلم مع رئيس كل فريق واعرف كل فريق بيعمل إيه يوميًا.", "en": "Talk to every team head and see what each team does day to day." } },
+      { "time": "12:00", "title": { "ar": "اختار التحدّي المناسب", "en": "Choose your challenge" }, "description": { "ar": "اختار الفريق والمشروع اللي يناسب مهاراتك.", "en": "Pick the team and the project that fit your skills." } }
+    ]
+  },
+  {
+    "id": "pitch-workshop",
+    "date": "2026-12-12T12:00:00+02:00",
+    "type": { "ar": "ورشة عمل", "en": "Workshop" },
+    "title": { "ar": "ورشة مهارات العرض", "en": "Pitch Skills Workshop" },
+    "summary": { "ar": "اتعلم تحكي فكرتك في دقيقتين وتقنع بيها أي حد.", "en": "Learn to tell your idea in two minutes and win people over." },
+    "location": { "ar": "جامعة السويس — قاعة الورش", "en": "Suez University — Workshop Room" },
+    "agenda": [
+      { "time": "12:00", "title": { "ar": "بناء القصة", "en": "Building the story" }, "description": { "ar": "من المشكلة للحل في ثلاث خطوات.", "en": "From problem to solution in three steps." } },
+      { "time": "13:00", "title": { "ar": "تدريب عملي", "en": "Live practice" }, "description": { "ar": "كل مشارك بيقدّم وياخد تعليق مباشر.", "en": "Each participant pitches and gets direct feedback." } }
+    ]
+  },
+  {
+    "id": "projects-showcase",
+    "date": "2027-01-16T11:00:00+02:00",
+    "type": { "ar": "معرض", "en": "Showcase" },
+    "title": { "ar": "معرض المشاريع", "en": "Projects Showcase" },
+    "summary": { "ar": "شوف مشاريع الموسم على الطبيعة واتكلم مع الفرق اللي عملتها.", "en": "See this season's projects up close and talk to the teams behind them." },
+    "location": { "ar": "جامعة السويس — الساحة المفتوحة", "en": "Suez University — Open Plaza" },
+    "agenda": [
+      { "time": "11:00", "title": { "ar": "جولة المشاريع", "en": "Project tour" }, "description": { "ar": "كل مشروع في ركن مخصوص له.", "en": "Every project gets its own corner." } },
+      { "time": "13:00", "title": { "ar": "عرض الأثر", "en": "Impact presentation" }, "description": { "ar": "الأرقام والنتايج الحقيقية للموسم.", "en": "The season's real numbers and results." } }
+    ]
+  }
+]
