@@ -1,12 +1,11 @@
 import "@fontsource-variable/readex-pro";
 import "../globals.css";
-import Script from "next/script";
+import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { dirOf, getDictionary, hasLocale, locales } from "@/lib/i18n";
-
-const themeScript = `try{var t=localStorage.getItem("theme");if(t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}`;
 
 export const generateStaticParams = () => locales.map((locale) => ({ locale }));
 
@@ -30,18 +29,23 @@ export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
   if (!hasLocale(locale)) notFound();
   const dict = getDictionary(locale);
+  const cookieStore = await cookies();
+  const theme = cookieStore.get("theme")?.value === "dark" ? "dark" : "light";
 
   return (
-    <html lang={locale} dir={dirOf(locale)} suppressHydrationWarning>
+    <html
+      lang={locale}
+      dir={dirOf(locale)}
+      className={theme === "dark" ? "dark" : ""}
+    >
       <body className="min-h-dvh antialiased">
-        <Script id="theme-init" strategy="beforeInteractive">
-          {themeScript}
-        </Script>
-        <div className="mx-auto w-full max-w-[1320px] px-4 sm:px-7">
-          <Navbar locale={locale} dict={dict.nav} />
-          <main>{children}</main>
-          <Footer locale={locale} dict={dict.footer} nav={dict.nav} />
-        </div>
+        <ThemeProvider initialTheme={theme}>
+          <div className="mx-auto w-full max-w-[1320px] px-4 sm:px-7">
+            <Navbar locale={locale} dict={dict.nav} />
+            <main>{children}</main>
+            <Footer locale={locale} dict={dict.footer} nav={dict.nav} />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

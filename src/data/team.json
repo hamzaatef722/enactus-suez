@@ -1,149 +1,165 @@
 {
   "president": {
-    "name": {
-      "ar": "محمد علي",
-      "en": "Mohamed Ali"
+    "name": { "ar": "محمد بهران", "en": "Mohamed Bhran" },
+    "initials": "MB",
+    "role": { "ar": "رئيس المجلس", "en": "President" }
+  },
+  "vicePresident": {
+    "name": { "ar": "عبد الرحمن سامي", "en": "Abdelrahman Samy" },
+    "initials": "AS",
+    "role": { "ar": "نائب رئيس المجلس", "en": "Vice President" }
+  },
+  "programs": {
+    "id": "programs",
+    "icon": "lg",
+    "name": { "ar": "فريق البرامج", "en": "Programs Team" },
+    "description": {
+      "ar": "الأكاديمية ونوادي اللغات اللي بتبني مهارات الأعضاء.",
+      "en": "The academy and language clubs that build members' skills."
     },
-    "initials": "MA"
+    "managers": [
+      {
+        "name": { "ar": "سلمى أيمن", "en": "Salma Ayman" },
+        "initials": "SA",
+        "role": { "ar": "مديرة الأكاديمية", "en": "Academy Manager" }
+      },
+      {
+        "name": { "ar": "شهد طارق", "en": "Shahd Tarek" },
+        "initials": "ST",
+        "role": { "ar": "مديرة نادي اللغة الإنجليزية", "en": "English Club Manager" }
+      },
+      {
+        "name": { "ar": "نورهان حسام", "en": "Nourhan Hossam" },
+        "initials": "NH",
+        "role": { "ar": "مديرة نادي اللغة الألمانية", "en": "German Club Manager" }
+      }
+    ]
   },
   "departments": [
     {
-      "id": "bd",
-      "icon": "bd",
-      "name": {
-        "ar": "تطوير الأعمال",
-        "en": "Business Development"
-      },
-      "description": {
-        "ar": "يحوّل فرص التعاون إلى شراكات مستمرة.",
-        "en": "Turns collaboration opportunities into lasting partnerships."
-      },
-      "head": {
-        "name": {
-          "ar": "عمر مصطفى",
-          "en": "Omar Mostafa"
-        },
-        "initials": "OM"
-      },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
-    },
-    {
-      "id": "pm",
-      "icon": "pm",
-      "name": {
-        "ar": "إدارة المشاريع",
-        "en": "Project Management"
-      },
-      "description": {
-        "ar": "ينظّم الطريق من أول فكرة حتى التنفيذ.",
-        "en": "Organises the path from first idea to delivery."
-      },
-      "head": {
-        "name": {
-          "ar": "لينا نبيل",
-          "en": "Lina Nabil"
-        },
-        "initials": "LN"
-      },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
-    },
-    {
-      "id": "mk",
-      "icon": "mk",
-      "name": {
-        "ar": "التسويق",
-        "en": "Marketing"
-      },
-      "description": {
-        "ar": "يخلق قصصًا تصل للناس وتدفعهم للتحرك.",
-        "en": "Creates stories that move people to action."
-      },
-      "head": {
-        "name": {
-          "ar": "يوسف خالد",
-          "en": "Youssef Khaled"
-        },
-        "initials": "YK"
-      },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
-    },
-    {
       "id": "hr",
       "icon": "hr",
-      "name": {
-        "ar": "الموارد البشرية",
-        "en": "Human Resources"
-      },
+      "name": { "ar": "الموارد البشرية", "en": "Human Resources" },
       "description": {
         "ar": "يبني تجربة ينمو فيها كل عضو.",
         "en": "Builds an experience where every member can grow."
       },
       "head": {
-        "name": {
-          "ar": "سلمى عادل",
-          "en": "Salma Adel"
-        },
-        "initials": "SA"
+        "name": { "ar": "نورهان حسام", "en": "Nourhan Hossam" },
+        "initials": "NH",
+        "role": { "ar": "رئيسة الموارد البشرية", "en": "Head of Human Resources" }
       },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
+      "vices": [
+        {
+          "name": { "ar": "أسامة عتيتو", "en": "Ossama Atitio" },
+          "initials": "OA",
+          "role": { "ar": "نائب رئيس الموارد البشرية", "en": "Vice Head of Human Resources" }
+        }
+      ]
     },
     {
-      "id": "md",
+      "id": "pm",
+      "icon": "pm",
+      "name": { "ar": "إدارة المشاريع", "en": "Project Management" },
+      "description": {
+        "ar": "ينظّم الطريق من أول فكرة حتى التنفيذ.",
+        "en": "Organises the path from first idea to delivery."
+      },
+      "head": {
+        "name": { "ar": "فاطمة أشرف", "en": "Fatema Ashraf" },
+        "initials": "FA",
+        "role": { "ar": "رئيسة إدارة المشاريع", "en": "Head of Project Management" }
+      },
+      "vices": [
+        {
+          "name": { "ar": "عبد الرحمن عطاي", "en": "Abdelrahman Attay" },
+          "initials": "AA",
+          "role": { "ar": "نائب رئيس إدارة المشاريع", "en": "Vice Head of Project Management" }
+        },
+        {
+          "name": { "ar": "هنا أحمد", "en": "Hana Ahmed" },
+          "initials": "HA",
+          "role": { "ar": "نائبة رئيس إدارة المشاريع", "en": "Vice Head of Project Management" }
+        },
+        {
+          "name": { "ar": "ربى محمد", "en": "Ruba Mohamed" },
+          "initials": "RM",
+          "role": { "ar": "نائبة رئيس إدارة المشاريع", "en": "Vice Head of Project Management" }
+        }
+      ]
+    },
+    {
+  "id": "pr",
+  "icon": "bd",
+  "name": { "ar": "العلاقات العامة وجمع التبرعات", "en": "PR & Fundraising" },
+  "description": {
+    "ar": "يبني علاقات مع الداعمين ويجمع التمويل اللي المشاريع محتاجاه.",
+    "en": "Builds relationships with supporters and raises the funds projects need."
+  },
+  "head": {
+    "name": { "ar": "أمل خميس", "en": "Aml Khamis" },
+    "initials": "AK",
+    "role": { "ar": "رئيسة العلاقات العامة وجمع التبرعات", "en": "Head of PR & Fundraising" }
+  },
+  "vices": [
+    {
+      "name": { "ar": "يوسف وائل", "en": "Youssef Wael" },
+      "initials": "YW",
+      "role": { "ar": "نائب رئيس العلاقات العامة وجمع التبرعات", "en": "Vice Head of PR & Fundraising" }
+    }
+  ]
+},
+    {
+      "id": "presentation",
       "icon": "md",
-      "name": {
-        "ar": "الميديا والتصميم",
-        "en": "Media & Design"
-      },
+      "name": { "ar": "العروض التقديمية", "en": "Presentation" },
       "description": {
-        "ar": "يحوّل الأفكار إلى هوية بصرية حاضرة.",
-        "en": "Turns ideas into a visual identity that shows up."
+        "ar": "يحوّل الأفكار إلى عروض واضحة ومقنعة.",
+        "en": "Turns ideas into clear, convincing presentations."
       },
       "head": {
-        "name": {
-          "ar": "نور رمضان",
-          "en": "Nour Ramadan"
-        },
-        "initials": "NR"
+        "name": { "ar": "أحمد غزلان", "en": "Ahmed Ghozlan" },
+        "initials": "AG",
+        "role": { "ar": "رئيس العروض التقديمية", "en": "Head of Presentation" }
       },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
+      "vices": [
+        {
+          "name": { "ar": "حبيبة علي", "en": "Habiba Aly" },
+          "initials": "HA",
+          "role": { "ar": "نائبة رئيس العروض التقديمية", "en": "Vice Head of Presentation" }
+        }
+      ]
     },
     {
-      "id": "lg",
-      "icon": "lg",
-      "name": {
-        "ar": "اللوجستيات",
-        "en": "Logistics"
-      },
+      "id": "media",
+      "icon": "mk",
+      "name": { "ar": "الميديا والتسويق", "en": "Media & Marketing" },
       "description": {
-        "ar": "يتأكد أن كل تفصيلة جاهزة في وقتها.",
-        "en": "Makes sure every detail is ready on time."
+        "ar": "يحكي قصتنا ويوصل للناس اللي محتاجينها.",
+        "en": "Tells our story and reaches the people who need it."
       },
       "head": {
-        "name": {
-          "ar": "أحمد محمود",
-          "en": "Ahmed Mahmoud"
-        },
-        "initials": "AM"
+        "name": { "ar": "سلمى وائل", "en": "Salma Wael" },
+        "initials": "SW",
+        "role": { "ar": "رئيسة الميديا والتسويق", "en": "Head of Media & Marketing" }
       },
-      "vice": {
-        "name": null,
-        "initials": null
-      }
+      "vices": [
+        {
+          "name": { "ar": "ريم أيمن", "en": "Reem Ayman" },
+          "initials": "RA",
+          "role": { "ar": "نائبة رئيس الميديا والتسويق", "en": "Vice Head of Media & Marketing" }
+        },
+        {
+          "name": { "ar": "حبيبة أشرف", "en": "Habiba Ashraf" },
+          "initials": "HA",
+          "role": { "ar": "نائبة رئيس الميديا والتسويق", "en": "Vice Head of Media & Marketing" }
+        },
+        {
+          "name": { "ar": "عبد الرحمن عوض", "en": "Abdelrahman Awad" },
+          "initials": "AA",
+          "role": { "ar": "نائب رئيس الميديا والتسويق", "en": "Vice Head of Media & Marketing" }
+        }
+      ]
     }
   ]
 }

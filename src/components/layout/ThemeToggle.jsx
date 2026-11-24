@@ -1,19 +1,16 @@
 "use client";
 
 import Icon from "@/components/ui/Icon";
+import { useTheme } from "./ThemeProvider";
 
 export default function ThemeToggle({ label }) {
-  const toggle = () => {
-    const dark = document.documentElement.classList.toggle("dark");
-    try {
-      localStorage.setItem("theme", dark ? "dark" : "light");
-    } catch {}
-  };
+  const { theme, toggle } = useTheme();
 
   return (
     <button
       type="button"
       aria-label={label}
+      aria-pressed={theme === "dark"}
       onClick={toggle}
       className="grid size-10 place-items-center rounded-full border border-line transition-colors hover:bg-pale"
     >
