@@ -1,0 +1,180 @@
+{
+  "name": "SMARTA",
+  "fullName": {
+    "ar": "مراقبة التخزين وضمان التتبع اللحظي",
+    "en": "Storage Monitoring and Real-Time Tracking Assurance"
+  },
+  "firstCustomer": { "ar": "أول عميل: Tlata Kofta", "en": "First customer: Tlata Kofta" },
+  "tagline": {
+    "ar": "كيت ذكي بيراقب ظروف التخزين وبيبعتلك تنبيه على الموبايل قبل ما الأكل يتحول لهدر.",
+    "en": "A smart kit that watches storage conditions and alerts your phone before food turns into waste."
+  },
+  "stats": [
+    { "value": 19, "label": { "ar": "مستفيد مباشر", "en": "Direct beneficiaries" } },
+    { "value": 27000, "prefix": "~", "label": { "ar": "مستهلك وصله الأثر", "en": "Consumers reached" } },
+    { "value": 1080, "suffix": { "ar": " كجم", "en": " kg" }, "label": { "ar": "لحمة طازجة اتحفظت", "en": "Fresh meat preserved" } },
+    { "value": 670, "prefix": "~", "suffix": { "ar": " كجم", "en": " kg" }, "label": { "ar": "CO₂e اتجنب انبعاثه", "en": "CO₂e emissions avoided" } }
+  ],
+  "problem": {
+    "intro": {
+      "ar": "تلف الأكل بيبدأ في صمت. تغيرات صغيرة في الحرارة والرطوبة والغازات بتعدي من غير ما حد ياخد باله، لحد ما الأكل يبقى مش آمن أو يترمي. عالميًا حوالي تلت الأكل المنتج بيضيع، يعني حوالي 1.3 مليار طن في السنة.",
+      "en": "Food spoilage starts silently. Small changes in temperature, humidity and gas go unnoticed until food is unsafe or thrown away. Globally, about a third of all food produced is lost or wasted, roughly 1.3 billion tons a year."
+    },
+    "causes": [
+      {
+        "title": { "ar": "حرارة مش ثابتة", "en": "Unstable temperature" },
+        "effect": { "ar": "خطر تلف أعلى وطزاجة أقل.", "en": "Higher spoilage risk and reduced freshness." },
+        "response": { "ar": "تتبع الحرارة مع تنبيهات.", "en": "Temperature tracking with alerts." }
+      },
+      {
+        "title": { "ar": "تغيّر الرطوبة", "en": "Humidity changes" },
+        "effect": { "ar": "جودة بتقل وتخزين مش آمن.", "en": "Quality deterioration and unsafe storage." },
+        "response": { "ar": "مراقبة الرطوبة ومتابعة صيانة.", "en": "Humidity monitoring and maintenance follow-up." }
+      },
+      {
+        "title": { "ar": "تغيّر غازات مش باينة", "en": "Invisible gas changes" },
+        "effect": { "ar": "علامات التلف المخفية بتعدي من غير ما تتلاحظ.", "en": "Hidden spoilage signs get missed." },
+        "response": { "ar": "استشعار الغازات وتنبيهات المخاطر.", "en": "Gas sensing and risk alerts." }
+      },
+      {
+        "title": { "ar": "فحص يدوي بس", "en": "Manual checking only" },
+        "effect": { "ar": "التلف بيتكتشف متأخر.", "en": "Spoilage is found too late." },
+        "response": { "ar": "مراقبة مستمرة وإشعارات على الموبايل.", "en": "Continuous monitoring and mobile notifications." }
+      },
+      {
+        "title": { "ar": "مفيش سجل بيانات واضح", "en": "No clear data trail" },
+        "effect": { "ar": "صعب تثبت إن الوضع اتحسن.", "en": "Harder to prove improvement." },
+        "response": { "ar": "مقارنة قبل وبعد وسجلات تشغيل.", "en": "Before-and-after comparison and operating records." }
+      }
+    ]
+  },
+  "spoilage": {
+    "before": 17.5,
+    "after": 4,
+    "reduction": 77,
+    "scale": 20,
+    "note": {
+      "ar": "كان متقدّر بـ 15–20% شهريًا قبل SMARTA، وبقى حوالي 4% بعد التطبيق.",
+      "en": "Estimated at 15–20% a month before SMARTA, and about 4% after implementation."
+    }
+  },
+  "steps": [
+    {
+      "process": { "ar": "الحساسات بتقرا ظروف التخزين وتلقط أي تغيير.", "en": "Sensors read storage conditions and detect changes." },
+      "outcome": { "ar": "الخطر اللي مكنش باين بقى قابل للقياس.", "en": "The invisible risk becomes measurable." }
+    },
+    {
+      "process": { "ar": "النظام بيبعت تنبيه لموبايل المالك لما الظروف تبقى خطرة.", "en": "The system alerts the owner's phone when conditions turn risky." },
+      "outcome": { "ar": "المالك بيتصرف قبل ما التلف يظهر.", "en": "The owner acts before spoilage is visible." }
+    },
+    {
+      "process": { "ar": "التقارير بتتبع مشاكل التخزين المتكررة.", "en": "Reports track repeated storage problems." },
+      "outcome": { "ar": "المطعم بيحسّن عاداته ومعداته وصيانته.", "en": "The business improves habits, equipment and maintenance." }
+    },
+    {
+      "process": { "ar": "فريق الخدمة بيتابع بالصيانة والمعايرة.", "en": "The service team follows up with maintenance and calibration." },
+      "outcome": { "ar": "الحل يفضل موثوق بعد البيع.", "en": "The solution stays reliable after the sale." }
+    }
+  ],
+  "components": [
+    { "title": { "ar": "مراقبة بالحساسات", "en": "Sensor monitoring" }, "text": { "ar": "بتتبع الحرارة والرطوبة ومؤشرات الغازات.", "en": "Tracks temperature, humidity and gas indicators." } },
+    { "title": { "ar": "إشعارات الموبايل", "en": "Mobile notifications" }, "text": { "ar": "تنبيه للمالك أو المدير قبل ما التلف يبقى خسارة.", "en": "Alerts the owner or manager before spoilage becomes a loss." } },
+    { "title": { "ar": "خدمة صيانة", "en": "Maintenance service" }, "text": { "ar": "متابعة فنية شهرية عشان النظام يفضل دقيق.", "en": "Monthly technical follow-up keeps the system accurate." } },
+    { "title": { "ar": "لوحة تشغيل", "en": "Operational dashboard" }, "text": { "ar": "بتحوّل القراءات لإشارات خطر بسيطة.", "en": "Turns readings into simple risk signals." } },
+    { "title": { "ar": "تركيز على حفظ اللحوم", "en": "Meat preservation focus" }, "text": { "ar": "اتجرّب في مخزن مطعم جودة اللحمة فيه حاسمة.", "en": "Validated in a restaurant where meat quality is critical." } },
+    { "title": { "ar": "هاردوير قابل للتوسع", "en": "Scalable hardware" }, "text": { "ar": "تكلفة وتصميم يسمحوا بالتوسع لفروع تانية.", "en": "Cost and modular design allow expansion to more branches." } }
+  ],
+  "impactAreas": [
+    {
+      "id": "people",
+      "icon": "hr",
+      "color": "#f4a98a",
+      "title": { "ar": "الناس", "en": "People" },
+      "summary": { "ar": "المالك وفرق الفروع والمستهلكين استفادوا من تخزين أكثر استقرارًا.", "en": "The owner, branch teams and consumers benefit from steadier storage." },
+      "metrics": [
+        { "value": "19", "label": { "ar": "مستفيد مباشر", "en": "Direct beneficiaries" } },
+        { "value": "~27,000", "label": { "ar": "مستهلك غير مباشر", "en": "Indirect consumers" } }
+      ],
+      "changed": {
+        "ar": "المالك وفرق الفروع اكتسبوا أداة إنذار مبكر للتحكم في التخزين، والمستهلكين استفادوا من جودة أكل أكثر ثباتًا.",
+        "en": "The owner and branch teams gained an early-warning tool for storage control, and consumers benefited from more stable food quality."
+      },
+      "evidence": {
+        "ar": "المباشر = 1 مالك + 3 مديري فروع + 15 عامل. غير المباشر = تقدير لحركة العملاء في الفروع التلاتة على مدى 3 شهور.",
+        "en": "Direct = 1 owner + 3 branch managers + 15 workers. Indirect = estimated customer traffic across the 3 branches over 3 months."
+      }
+    },
+    {
+      "id": "planet",
+      "icon": "env",
+      "color": "#9bd38a",
+      "title": { "ar": "الكوكب", "en": "Planet" },
+      "summary": { "ar": "لحمة اتحفظت بدل ما تتحول لهدر، وانبعاثات ميثان أقل من المدافن.", "en": "Meat preserved instead of wasted, with less methane from landfill." },
+      "metrics": [
+        { "value": "1,080", "label": { "ar": "كجم لحمة طازجة اتحفظت", "en": "kg of fresh meat preserved" } },
+        { "value": "~670", "label": { "ar": "كجم CO₂e اتجنب", "en": "kg CO₂e avoided" } },
+        { "value": "~25", "label": { "ar": "كجم ميثان مكافئ", "en": "kg methane-equivalent" } }
+      ],
+      "changed": {
+        "ar": "اللحمة اتمنعت من إنها تتحول لهدر، وده قلل أثر الميثان المرتبط بالمدافن.",
+        "en": "Meat was prevented from becoming waste, reducing methane-related landfill impact."
+      },
+      "evidence": {
+        "ar": "الأكل اللي اتجنب هدره × معامل ميثان تقريبي 0.62 كجم CO₂e لكل كجم: 1,080 × 0.62 = حوالي 670 كجم.",
+        "en": "Avoided food waste × a landfill methane factor of about 0.62 kg CO₂e per kg: 1,080 × 0.62 = about 670 kg."
+      }
+    },
+    {
+      "id": "prosperity",
+      "icon": "bd",
+      "color": "#8fc7e8",
+      "title": { "ar": "الازدهار", "en": "Prosperity" },
+      "summary": { "ar": "العميل دفع فعلًا، وده أثبت إن الحل ليه سوق.", "en": "The customer actually paid, which validated demand." },
+      "metrics": [
+        { "value": "44,600", "label": { "ar": "جنيه إيراد", "en": "EGP revenue" } },
+        { "value": "34,500", "label": { "ar": "جنيه مجمل ربح", "en": "EGP gross profit" } },
+        { "value": "77%", "label": { "ar": "هامش الربح", "en": "Gross margin" } }
+      ],
+      "changed": {
+        "ar": "SMARTA أثبت استعداد العميل للدفع من خلال مبيعات الأجهزة وإيرادات الخدمة.",
+        "en": "SMARTA validated willingness to pay through hardware sales plus service revenue."
+      },
+      "evidence": {
+        "ar": "الإيراد متقسم بين مبيعات الأجهزة والتركيب واشتراكات البرنامج وعقد الصيانة، من 5 كيتات اتباعت وشغّالة 3 شهور.",
+        "en": "Revenue is split across hardware sales, installation, software subscriptions and a maintenance contract, from 5 kits operating for 3 months."
+      }
+    }
+  ],
+  "business": {
+    "kits": 5,
+    "price": 6000,
+    "cost": 1500,
+    "revenue": 44600,
+    "cogs": 10100,
+    "profit": 34500,
+    "margin": 77,
+    "streams": [
+      { "id": "hardware", "value": 30000, "color": "#e8b21f", "label": { "ar": "مبيعات الأجهزة", "en": "Hardware sales" } },
+      { "id": "subscriptions", "value": 9000, "color": "#8fc7e8", "label": { "ar": "اشتراكات البرنامج", "en": "Software subscriptions" } },
+      { "id": "installation", "value": 5000, "color": "#f4a98a", "label": { "ar": "التركيب", "en": "Installation" } },
+      { "id": "maintenance", "value": 600, "color": "#9bd38a", "label": { "ar": "عقد الصيانة", "en": "Maintenance contract" } }
+    ]
+  },
+  "plan": { "kits": 30, "revenue": 444000, "margin": 90.1 },
+  "roadmap": [
+    { "title": { "ar": "توسع في السوق", "en": "Market expansion" }, "text": { "ar": "من أول تركيبات لمخازن ومنشآت تصدير ومركبات نقل وموزعين ومزارعين وتجار ومطاعم في مصر.", "en": "From the first deployments into warehouses, export facilities, transport vehicles, distributors, farmers, traders and restaurants across Egypt." } },
+    { "title": { "ar": "توقعات أدق", "en": "Better predictions" }, "text": { "ar": "تحسين دقة التوقع بجمع بيانات مستمر وتحليل مدعوم بالذكاء الاصطناعي.", "en": "Improve prediction accuracy through continuous data collection and AI-supported analysis." } },
+    { "title": { "ar": "مراقبة بالمناطق", "en": "Zonal monitoring" }, "text": { "ar": "مكونات أعلى دقة وعقد حساسات كل كام متر في المساحات الكبيرة.", "en": "Higher-precision components and sensor nodes every few meters in larger spaces." } },
+    { "title": { "ar": "منصة أسهل", "en": "Easier platform" }, "text": { "ar": "تطوير SMARTA Guard ليبقى أبسط وعربي وسهل للعمال بخلفيات تقنية مختلفة.", "en": "Make SMARTA Guard simpler and Arabic-friendly for workers with different technical backgrounds." } },
+    { "title": { "ar": "تدخل تلقائي", "en": "Automatic intervention" }, "text": { "ar": "إضافة مستقبلية بعد التأكد الكامل من أداء المراقبة.", "en": "A future add-on once monitoring performance is fully validated." } },
+    { "title": { "ar": "خارج مصر", "en": "Beyond Egypt" }, "text": { "ar": "بعد إثبات SMARTA في مصر، التوسع لدول مجاورة عندها نفس تحديات التخزين.", "en": "After proving SMARTA in Egypt, expand to neighboring countries with similar storage challenges." } }
+  ],
+  "timeline": [
+    { "date": { "ar": "30 نوفمبر 2025", "en": "30 Nov 2025" }, "title": { "ar": "اكتمال البحث وجمع البيانات", "en": "Research and data collection completed" } },
+    { "date": { "ar": "13 ديسمبر 2025", "en": "13 Dec 2025" }, "title": { "ar": "تجميع الهاردوير ودمج الحساسات", "en": "Hardware assembly and sensor integration" } },
+    { "date": { "ar": "15 يناير 2026", "en": "15 Jan 2026" }, "title": { "ar": "تطوير البرنامج ونموذج الذكاء الاصطناعي", "en": "Software and AI model development" } },
+    { "date": { "ar": "4 مارس 2026", "en": "4 Mar 2026" }, "title": { "ar": "التركيب والبيع لأول عميل", "en": "Deployment and sale to the first customer" } },
+    { "date": { "ar": "7 يونيو 2026", "en": "7 Jun 2026" }, "title": { "ar": "تقييم الأثر وإعداد التقرير", "en": "Impact evaluation and report" } }
+  ],
+  "sdgs": [1, 2, 3, 8, 9, 11, 12, 13, 15, 17]
+}
