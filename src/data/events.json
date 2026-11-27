@@ -1,15 +1,39 @@
 [
   {
     "id": "opening-day",
-    "date": "2026-11-30T10:00:00+02:00",
+    "date": "2026-11-30T15:00:00+02:00",
     "type": { "ar": "فعالية افتتاحية", "en": "Kick-off" },
     "title": { "ar": "يوم الافتتاح", "en": "Opening Day" },
-    "summary": { "ar": "تعال تعرف المجتمع من الداخل، قابل التيم، واكتشف فين ممكن تبدأ رحلتك.", "en": "Come inside the community, meet the team and find where your journey can start." },
-    "location": { "ar": "جامعة السويس — القاعة الرئيسية", "en": "Suez University — Main Hall" },
+    "summary": {
+      "ar": "ضيوف من رواد الأعمال ومؤسسين ظهروا في Shark Tank Egypt، جلسات Q&A، أنشطة وهدايا. التذكرة تشمل ساندوتش شاورما وديزرت ومقعد محجوز.",
+      "en": "Guest speakers from Shark Tank Egypt founders and industry leaders, live Q&A, activities and giveaways. Your ticket includes a shawarma sandwich, dessert and a reserved seat."
+    },
+    "location": { "ar": "قاعة Winix — بورتوفيق، السويس", "en": "Winix Hall — Port Tawfeek, Suez" },
     "agenda": [
-      { "time": "10:00", "title": { "ar": "ترحيب والصورة الكبيرة", "en": "Welcome and the big picture" }, "description": { "ar": "قصة Enactus السويس والمشاريع اللي الطلبة أطلقوها بالفعل.", "en": "The story of Enactus Suez and the projects students have already launched." } },
-      { "time": "11:00", "title": { "ar": "قابل الفرق", "en": "Meet the teams" }, "description": { "ar": "اتكلم مع رئيس كل فريق واعرف كل فريق بيعمل إيه يوميًا.", "en": "Talk to every team head and see what each team does day to day." } },
-      { "time": "12:00", "title": { "ar": "اختار التحدّي المناسب", "en": "Choose your challenge" }, "description": { "ar": "اختار الفريق والمشروع اللي يناسب مهاراتك.", "en": "Pick the team and the project that fit your skills." } }
+      {
+        "time": "15:00",
+        "title": { "ar": "قابل الضيوف", "en": "Meet the speakers" },
+        "description": {
+          "ar": "أحمد رمضان (Rakuten Mobile اليابان)، محمد عمرو (Wady Le3b)، مؤسسو Sahahly، محمد محفوظ (Scootup)، حذيفة الخولي، عمار (Shawermagy)، وشهاب طارق (Fib Coffee).",
+          "en": "Ahmed Ramadan (Rakuten Mobile, Japan), Mohamed Amr (Wady Le3b), the Sahahly founders, Mohamed Mahfouz (Scootup), Hozayfa El Kholy, Ammar (Shawermagy) and Shehab Tarek (Fib Coffee)."
+        }
+      },
+      {
+        "time": "17:00",
+        "title": { "ar": "إيه اللي في تذكرتك؟", "en": "What's in your ticket?" },
+        "description": {
+          "ar": "شاورما فراخ كبيرة، ديزرت (Cinnabon أو cupcakes)، مقعد محجوز، جلسات Q&A، فوتو بوث، أنشطة وفرص تكسب vouchers وهدايا.",
+          "en": "A large chicken shawarma, a dessert (Cinnabon or cupcakes), a reserved seat, Q&A sessions, photo booth, activities and a chance to win vouchers and giveaways."
+        }
+      },
+      {
+        "time": "19:00",
+        "title": { "ar": "استكشف البوثات", "en": "Explore the booths" },
+        "description": {
+          "ar": "Shawermagy للأكل، Fib Coffee للمشروبات، Mariam Cakes للحلويات، وGlitter Face Art. المشتريات الإضافية مش داخلة في سعر التذكرة.",
+          "en": "Shawermagy for food, Fib Coffee for drinks, Mariam Cakes for desserts and Glitter Face Art. Extra purchases are not included in the ticket price."
+        }
+      }
     ]
   }
 ]
