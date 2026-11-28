@@ -44,7 +44,8 @@ export default function Navbar({ locale, dict }) {
         >
           {links.map(({ key, path }) => {
             const href = `/${locale}${path}`;
-            const active = path === "" ? pathname === href : pathname.startsWith(href);
+            const active =
+              path === "" ? pathname === href : pathname.startsWith(href);
             return (
               <Link
                 key={key}
@@ -52,7 +53,9 @@ export default function Navbar({ locale, dict }) {
                 aria-current={active ? "page" : undefined}
                 onClick={() => setOpen(false)}
                 className={`rounded-full px-4 py-3 text-[15px] font-medium transition-colors md:py-2 md:text-sm ${
-                  active ? "bg-ink text-bg" : "text-muted hover:bg-pale hover:text-ink"
+                  active
+                    ? "bg-ink text-bg"
+                    : "text-muted hover:bg-pale hover:text-ink"
                 }`}
               >
                 {dict[key]}
